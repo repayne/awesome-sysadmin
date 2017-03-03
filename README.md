@@ -27,6 +27,7 @@
   * [Deployment Automation](#deployment-automation)
   * [Distributed Filesystems](#distributed-filesystems)
   * [DNS](#dns)
+  * [Domains](#domains)
   * [Editors](#editors)
   * [Identity Management](#identity-management)
   * [IT Asset Management](#it-asset-management)
@@ -105,7 +106,7 @@
 
   * [EasyBuild](https://easybuild.readthedocs.org/en/latest/) - EasyBuild builds software and modulefiles for High Performance Computing (HPC) systems in an efficient way.
   * [environment-modules Lmod](https://www.tacc.utexas.edu/research-development/tacc-projects/lmod) - Lmod is a Lua based module system that easily handles the MODULEPATH Hierarchical problem.
-  * [HPCBIOS](hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
+  * [HPCBIOS](http://hpcbios.readthedocs.org/en/latest/) - HPCBIOS is an effort to setup a common, well-documented and reproducible, environment spanning across multiple HPC systems & sites, *inclusive* of documentation.
 
 
 ## ChatOps
@@ -195,7 +196,7 @@
 *Configuration management database (CMDB) software.*
 
   * [i-doit](http://www.i-doit.org/) - IT Documentation and CMDB.
-  * [iTop](http://www.combodo.com/-Overview-.html) - Complete ITIL web based service management tool.
+  * [iTop](http://www.combodo.com/itop-193) - Complete ITIL web based service management tool.
   * [Ralph](https://github.com/allegro/ralph) - Asset management, DCIM and CMDB system for large Data Centers as well as smaller LAN networks.
   * [Clusto](https://github.com/clusto/clusto) - Helps you keep track of your inventory, where it is, how it's connected, and provides an abstracted interface for interacting with the elements of the infrastructure.
   * [Collins](http://tumblr.github.io/collins/) - At Tumblr, it's the infrastructure source of truth and knowledge.
@@ -236,6 +237,7 @@
     * [Virtualmin](http://www.virtualmin.com/) - Hosting panel for Linux based on webmin.
   * DNS
     * [Atomia DNS](http://atomiadns.com/) - DNS management system.
+    * [nsedit](https://github.com/tuxis-ie/nsedit) - nsedit is a DNS editor for PowerDNS, working with PowerDNS's new API.
     * [PDNS Gui](https://github.com/odoucet/pdns-gui) - WebGUI which aids in administering domains and records for PowerDNS with MySQL.
     * [Poweradmin](http://www.poweradmin.org/) - Friendly web-based DNS administration tool for PowerDNS server.
   * Revision Control
@@ -261,7 +263,7 @@
   * [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool (rake based).
   * [Rocketeer](http://rocketeer.autopergamene.eu/) - PHP task runner and deployment tool.
   * [Vlad the Deployer](https://github.com/seattlerb/vlad) - Deployment automation (rake based).
-  * [munki](https://www.munki.org/munki/) - Webserver-based repository of packages and package metadata, that allows macOS administrators to manage software installs. 
+  * [munki](https://www.munki.org/munki/) - Webserver-based repository of packages and package metadata, that allows macOS administrators to manage software installs.
 
 
 ## Distributed Filesystems
@@ -298,6 +300,12 @@
   * [Yadifa](http://www.yadifa.eu/) - Lightweight authoritative Name Server with DNSSEC capabilities powering the .eu top-level domain.
 
 
+## Domains
+*Domain management.*
+
+  * [DomainMOD](https://domainmod.org) - Manage your domains and other internet assets in a central location.
+
+
 ## Editors
 *Open source code editors.*
 
@@ -312,6 +320,7 @@
   * [KDevelop](https://www.kdevelop.org/) - IDE by the people behind KDE.
   * [Light Table](http://lighttable.com/) - The next generation code editor.
   * [Lime](http://limetext.org/) - Aims to provide an open source solution to Sublime Text
+  * [Notepad++](https://notepad-plus-plus.org/) - GPLv2 multi-language editor with syntax highlighting for Windows.
   * [TextMate](https://github.com/textmate/textmate/) - A graphical text editor for OS X.
   * [Vim](http://www.vim.org) - A highly configurable text editor built to enable efficient editing.
   * [Visual Studio Code](https://code.visualstudio.com/) - An open source cross-platform extensible code editor from Microsoft
@@ -328,10 +337,10 @@
   * [OpenDJ](http://opendj.forgerock.org/) - Fork of OpenDS.
   * [OpenDS](https://opends.java.net/) - Another directory server written in Java.
   * [OpenLDAP](http://www.OpenLDAP.org/) - Developed by the OpenLDAP Project.
+  * [FreeIPA](http://www.freeipa.org/) - Based on 389-DS. Includes Kerberos, DNS, as well as host based access control.
 
 ### Tools and web interfaces
   * [Fusion Directory](https://www.fusiondirectory.org) - Improve the Management of the services and the company directory based on OpenLDAP.
-  * [FreeIPA](http://www.freeipa.org/) - Security management solution, can manage LDAP, KRB, DNS, sudo, and more.
   * [Indieauth](https://indieauth.com/) - Sign in with your domain name (using the rel-me-auth protocol).
   * [Libravatar](https://www.libravatar.org/) - Libravatar is a service which delivers your avatar (profile picture) to other websites.
   * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/) - Web frontend for managing entries (e.g. users, groups, DHCP settings) stored in an LDAP directory.
@@ -406,7 +415,6 @@ ils and flask.
   * [pyDash](https://k3oni.github.io/pydash/) - Small web-based monitoring dashboard for linux.
   * [Riemann](http://riemann.io/) - Flexible and fast events processor allowing complex events/metrics analysis.
   * [Sensu](https://sensuapp.org/) - Monitoring framework.
-  * [Sentry](https://getsentry.com/) - Application monitoring, event logging and aggregation.
   * [ServerStatus BotoX](https://github.com/BotoX/ServerStatus) - Display and monitor your servers statistics in a beatiful way.
   * [ServerStatus moejda](https://github.com/mojeda/ServerStatus) - Server Status website script, displays uptime (days), free RAM, free HDD
   * [Shinken](http://www.shinken-monitoring.org/) - Another monitoring framework.
@@ -544,7 +552,9 @@ Comparison of NoSQL servers: http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-v
 *Operating system–level virtualization.*
 
   * [Docker](http://www.docker.com/) - Platform for developers and sysadmins to build, ship, and run distributed applications.
+    * [Docker Compose](https://docs.docker.com/compose/) - Define and run multi-container Docker applications.
   * [LXC](https://linuxcontainers.org/lxc/) - Userspace interface for the Linux kernel containment features.
+    * [LXD](https://linuxcontainers.org/lxd/) – a container "hypervisor" and a better UX for LXC.
   * [OpenVZ](http://openvz.org) - Container-based virtualization for Linux.
 
 
@@ -636,6 +646,7 @@ Various resources, such as books, websites and articles, for improving your skil
   * [Code as Craft](https://codeascraft.com/) - Etsy's Ops blog, lots of technical posts.
   * [DevOpsGuys](http://blog.devopsguys.com/) - Devops consultants who blog about operations.
   * [Rackspace Developers](https://developer.rackspace.com/blog/) - Slightly biased blog with lots of Devops Topics.
+  * [RoseHosting Blog](https://www.rosehosting.com/blog/) - Linux tutorials for installing and configuring various software through the Linux command line. Guides and introductions to different Linux technologies and applications. Tips and tricks you can do via the Linux command line and more.
 
 
 ## Books
